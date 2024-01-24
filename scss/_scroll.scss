@@ -1,0 +1,21 @@
+/* Стилизация скроллбара для всей веб-страницы */
+::-webkit-scrollbar {
+	width: 2px; /* ширина скроллбара */
+}
+
+/* Стилизация трека скроллбара */
+::-webkit-scrollbar-track {
+	background: #dfd5d5; /* цвет фона трека */
+	border-radius: 5px;
+}
+
+/* Стилизация самого ползунка скроллбара */
+::-webkit-scrollbar-thumb {
+	background: $black50; /* цвет ползунка */
+	border-radius: 5px;
+}
+
+/* Стилизация ползунка скроллбара при наведении */
+::-webkit-scrollbar-thumb:hover {
+	background: $black;; /* цвет ползунка при наведении */
+}

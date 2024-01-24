@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Roboto+Condensed:wght@400;500;700&display=swap');
+
+@mixin font-reg {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+@mixin font-mid {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+@mixin font-additem {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+}
